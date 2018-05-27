@@ -1,0 +1,15 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "A missions bot for operativehq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "echo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0"
+  }
+}
