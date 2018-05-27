@@ -57,7 +57,7 @@ let guildMember = members.find('id', '384850546676203521');
   } else if(command === `${prefix}r` && message.content.includes(`${prefix}r +d`)){
     let roll = Math.floor(Math.random() * dice2) + 1;
     return message.channel.send(`${mention} rolled a ${roll} with advantage.`);
-    let roll = Math.floor(Math.random() * dice2) + 1;
+    let roll2 = Math.floor(Math.random() * dice2) + 1;
     return message.channel.send(`${mention} rolled a ${roll} with advantage.`);
   }
 
