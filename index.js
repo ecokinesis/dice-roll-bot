@@ -63,4 +63,4 @@ let guildMember = members.find('id', '384850546676203521');
 
 });
 
-bot.login(botconfig.token);
+bot.login(process.env.BOT_TOKEN);
